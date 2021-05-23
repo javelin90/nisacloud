@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>NISACLOUD I Login</title>
+		<link rel="stylesheet" type="text/css" href="misestilo.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+		<script type="text/javascript">
+
+		document.oncontextmenu = function(){return false;}
+		function validar()
+		{
+			var usuario = document.getElementById("usuario").value;
+			var Contraseña = document.getElementById("pass").value;	
+
+			if(usuario == "gerardnisa" && Contraseña == "Geraard12")
+			{
+				alert("Usuario y Contraseña validos. Bienvenido Gerard!");
+				location.href="https://www.instagram.com"
+			}
+			else if (usuario == "virtu" && Contraseña == "nisava71")
+			{
+				alert("Usuario y Contraseña validos. Bienvenida Virtudes!");
+				location.href="https://www.instagram.com"
+			}
+			else
+			{
+				alert("Verifique sus credenciales");
+			}
+		}
+
+
+	</script>
+	</head>
+	<body class="page">
+			<table class="page__login">
+				<tr class="page__login__user">
+					<td><label>Usuario: </label></td> <td><input class="page__login__user__input" type="text" name="usuario" id="usuario"></td>
+				</tr>
+				<tr class="page__login__pasword">
+					<td><label>Contraseña: </label></td> <td><input class="page__login__pasword__input" type="password" name="pass" id="pass"></td>
+				</tr>
+				<tr class="page__login__submit">
+					<td class="page__login__submit" colspan="2"><input type="button" name="btnVerifivaca" id="btnVerifica" onclick="validar()" value="verificar" style = "width: 100%"> </td>
+				</tr>
+			</table>
+	</body>
+</html>

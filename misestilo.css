@@ -1,0 +1,37 @@
+*{
+	color: rgb(0, 255, 34);
+}
+.page {
+	
+	background-color: #141414;
+	font-family: 'Bebas Neue', cursive;
+}
+.page__login {
+	background-color: #141414;
+}
+.page__login__pasword {
+	color: white;
+	margin-bottom: 2vw;
+}
+.page__login__pasword__input {
+	background-color: white;
+	margin-bottom: 2vw;
+}
+.page__login__submit {
+	border-color: white;
+	border-style: solid;
+	border-width: 2px;
+}
+.page__login__user {
+	color: white;
+	margin-right: 70vw;
+	margin-bottom: 2vw;
+}
+.page__login__user__input {
+	background-color: white;
+	margin-right: 70vw;
+	margin-bottom: 2vw;
+}
+tr {
+	box-sizing: content-box;
+}
